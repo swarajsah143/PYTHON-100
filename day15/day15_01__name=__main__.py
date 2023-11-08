@@ -1,0 +1,3 @@
+import hyper
+
+hyper.welcome()

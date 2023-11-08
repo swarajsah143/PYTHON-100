@@ -1,0 +1,3 @@
+I am written with write()
+I am again written with write()
+I have appended the content using append mode.

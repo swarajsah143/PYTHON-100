@@ -22,12 +22,12 @@ b.info()
 c.info()
 
 
-# class person:
-#     def __init__(self):
-#         print("hey i am a default constructor")
-# a=person()
+class person:
+    def __init__(self):
+        print("hey i am a default constructor")
+a=person()
      
-     #This is default constructor as it doesnot takes any parameter
+    #  This is default constructor as it doesnot takes any parameter
     
 
          #Direct by function

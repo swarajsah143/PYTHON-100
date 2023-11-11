@@ -22,7 +22,7 @@ if(value==1):
 elif(value==0):
     for word in words:
         if len(word)>=3:
-            nword=word[-4]+word[3:-4]
+            nword=word[-4]+word[3:-4]  # last bata 3 wata xore vane "-4" is the position of 4th last which is initial letter of real word and from 3 index to -4 is the remaining letter
             nstr.append(nword)
         else:
             nstr.append(word[::-1])

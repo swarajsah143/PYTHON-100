@@ -3,7 +3,6 @@
 def cube(x):
     return x**3
 l=[1,2,3,4,5,6,7]
-
 newl=list(map(cube,l)) # map(function_name,list_name)
 # It maps the element inside list one by one and then pass to function as parameter
 print(newl)
@@ -52,10 +51,12 @@ l=[1,2,3,4,5,6,7]
 sum=reduce((lambda x,y:x+y),l)
 print(sum)
 
+
 # output process:
  # lnew=l[0]+l[1] where 0 and 1 are x and y
  # llnew=lnew+l[2] 
  # llnew+l[3] 
+ 
  # 1+2
  # (1+2)+3
  # ((1+2+3)+4

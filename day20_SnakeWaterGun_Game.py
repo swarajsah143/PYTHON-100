@@ -47,13 +47,13 @@ for i in range(10):
 print(f"{1}) You have tied {tied} times")  
 print(f"{2}) You have won {win} times")  
 print(f"{3}) You have lost {lost} times")
-if win>=tied and win>lost:
+if win>lost:
  end_wish="\nCongratulation you played well!" 
  print(end_wish.center(50))
-elif lost>=tied and lost>win:
+elif  lost>win:
     end_wish="\nSorry! Better luck next time."
     print(end_wish.center(50))
-else:
+elif win==lost:
     end_wish="\nIt's a tie!"
     print(end_wish.center(50))
 

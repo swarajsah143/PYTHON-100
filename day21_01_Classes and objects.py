@@ -4,6 +4,7 @@ class Student:
     grade=12
     roll=19
     college="National Infotech"
+# print(Student.name) direct print through class
 
     def info(self): # Self is that parameter which is used for that object which is being called
       print("Name : ", self.name) 
